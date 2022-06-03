@@ -10,4 +10,4 @@ for(const key in cart) {
         i = newKey == 'price' ? i + cart[key][newKey] : i;
     }
 }
-console.log(`${menu} | Общая стоимо ${i} сумм с доставкой (9000)`);
+console.log(`${menu} | Общая стоимость ${i} сумм с доставкой (9000)`);
